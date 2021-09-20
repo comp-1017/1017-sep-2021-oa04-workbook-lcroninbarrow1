@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <!--this is the structure of a comment block in html files
+    everything in this structure is NOT considered part of any connect of your webpage
+ 
+
+        most tags in html are done in pairs; opening and closing tags 
+    the opening tag indicates the tag instruction to the browser
+    the closing tag terminates the tag block. the closing tag has the same name as the opening tag with the addition
+    of a slash (/) before the tag name
+    
+    html tag has a parameter indicating the language of the text.
+-->
+<head>
+<!--this is a place where you can code supports for the browser to use in interpreting
+the web file. the items within this section are NOT content and will not be displayed on thw webpage.-->
+<title>on the page title</title>
+<meta name="author" context="Leo Cronin-Barrow">
+
+<!--this is a universal type set that covers almost all of the characters and symbols in the world
+http://www.w3schools.com/tags/tag_meta.asp-->
+<meta charset="utf-8">
+</head>
+<body>
+        <!--Header Tags
+        h1 through h6 
+        Title text tags
+        H1 is the largest title, h6 is the smallest
+        each of these tags have some built in formatting-->
+        <h1>Basic HTML tags</h1>
+        <h3>Paragraph tag</h3>
+        <!--this is the coding block for your context on your webpage-->
+        <p>The paragraph tag is a block tag. A block tag begins a new line 
+            in your displayed web page on the browser. The browser does NOT 
+            display your context in the physical style of how you have entered 
+            your code in your HTML file.
+        </p>
+        <P> This is my second paragraph on the displayed browser page. It will start 
+            a new line.
+        </P>
+        <!--If you wish to use a component of a reversed tag (or a whole tag) you would be in 
+        trouble just using the tag
+        you can use special characters to represent components of a tag such as the < (&lt) and the (&gt) > symbol-->
+        <h3>List tags &lt ol &gt and &lt ul &gt </h3>
+        <!--create an ordered list using the ol tag
+        Items in the list are li tags-->
+        <ol>
+            <li>Add extension Live Server for Go Live</li>
+            <li>Close and reopen VS-Code</li>
+            <li>look at the bottom right corner on the blue status line for Go Live</li>
+            <li>This will run your page from VS-Code</li>
+            <li> alter the page and save the file (ctrl + s), your browser will automatically
+                be updated
+            </li>
+        </ol>
+
+        <ul>
+            <li>This is an unordered list</li>
+            <li> default is a bulleted list</li>
+            <li> we will see later how to remove these bullets</li>
+        </ul>
+
+        <!--this is an anchor tag often reffered to as the link tag
+            one should NOT use the term link tag as this is a <link> tag used in the <head> section
+        this tag can take you to a different location wether it be a different 
+    website different page in the current website or a different position on the current page
+
+
+        parameter href points to the desired location
+            target indicates the browser page display option
+            default is same display page, _blank will 
+            use a new window tab-->
+
+<h3>Anchor</h3>
+
+                <a href= "https://www.nait.ca" target="_blank">Go to Nait</a> 
+</body>
+</html>
