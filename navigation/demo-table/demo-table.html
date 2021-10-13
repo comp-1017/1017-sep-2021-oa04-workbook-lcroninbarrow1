@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <title>Table Demo</title>
+    <meta name="author" content="Leo Cronin-Barrow">
+
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h1>Table Demo</h1>
+        <nav>
+            <h2>Nav tag titles are optional</h2>
+            <ul>
+                <li><a href="../index.html">Landing Page</a></li>
+                <li><a href="../apple-pie.html">Apple Pie</a></li>
+                <li><a href="#">Table Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p>A table is a way of creating a structured grid display of data.
+        The tags we will be interested in are:
+    <p>
+    <ul>
+        <li>&lt;table&gt; : identifies the table</li>
+        <li>&lt;thead&gt; : identifies the header row of the table</li>
+        <li>&lt;th&gt; : identifies the text in the head of the column</li>
+        <li>&lt;tbody&gt; : identifies the body of the table(detail rows)</li>
+        <li>&lt;tr&gt; : indentifies the start of a row</li>
+        <li>&lt;td&gt; :identifies a data cell on the body row</li>
+        <li>&lt;tfoot&gt; : identifies the footer row of the table</li>
+
+    </ul>
+    <p>
+        all tags are paired (opening and closing tag). the border parameters
+        on the table tag will allow you to specify a border around your table.
+        The colspan parameter and rowspan parameter are used on the &lt;td&gt; tag allows you to
+        merge columns on a single row and column cells across rows.
+        &nbsp; creates an extra physical space.
+    <p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Course#</th>
+                <th>Name</th>
+                <th>Hours</th>
+                <th>Pass Criteria</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/texts.png" alt="computer"></td>
+                <td>COMP1017</td>
+                <td>Web Design Fundementals</td>
+                <td>60</td>
+                <td>Overall 50%</td>
+
+            </tr>
+            <tr>
+                <td><img src="img/money.png" alt="money"></td>
+                <td>COMP1008</td>
+                <td>Digital Design Graphic Tools</td>
+                <td>60</td>
+                <td>Overall 50%</td>
+
+            </tr>
+            <tr>
+                <td><img src="img/phone.png" alt="phone"></td>
+                <td>CPSC1517</td>
+                <td>Introduction to Application Development</td>
+                <td>90</td>
+                <td>Overall &nbsp;&nbsp;&nbsp; 50% and <strong>minimum</strong> 50% in Theory <strong>and</strong> Lab
+                    components</td>
+
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>210</td>
+                <td></td>
+            </tr>
+
+
+        </tfoot>
+    </table>
+</body>
+
+</html>
