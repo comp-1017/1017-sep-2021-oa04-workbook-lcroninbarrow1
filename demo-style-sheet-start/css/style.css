@@ -1,0 +1,52 @@
+/* tag selector */
+h1{
+    color: red;
+}
+p{
+    background-color: aquamarine;
+    font-family: calibri;
+
+    
+}
+h2{
+    color: green;
+    background-color: rgb(209, 208, 219);
+    border: 3px solid black;
+}
+
+/* class selector
+precceded by a period
+can be used by any tag where the class is specified
+colors can be specified using #rgb */
+.menu-items{
+    border-left: 5px solid firebrick;
+    font-family: Courier, sans-serif;
+    background-color: rgb(233, 241, 245);
+    padding: 24px;
+    /*move to the right*/
+    margin-left: 24px;
+    /*specify the size (width) of the area desired */
+    width: 600px;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+margin: 40px;
+width: 800px;
+background-color: slategray;
+}
+
+/* Child combination
+parent -> child element set
+aside -> p
+*/
+aside > p{
+    background-color: violet;
+}
+
+/* decendant combination
+a chain of elements to be matched
+*/
+body aside p{
+    background-color: royalblue;
+}
